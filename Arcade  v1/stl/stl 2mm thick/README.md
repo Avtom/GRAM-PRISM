@@ -1,0 +1,1 @@
+Theses .stl have been used to test the models with a 3D printer. They are 2mm thick as it was the minumum tollerance for the printer.
