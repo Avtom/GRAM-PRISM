@@ -14,6 +14,7 @@ Here is the different steps taken to create this version of the **PRI$M** so far
     - Using a circular cutter make that process way easier
     - It was good opportunity to check that there is enough room under the panels for all the buttons to fit
     - Different version of the layout have been born out of this experiment, with different placement and size of the Aux buttons (start, select, etc) and with and without a focus mode button
+    - Tip: the correct way of holding the Prism is with the top middle edge perpandicular to you. Meaning the controller will be tilted with your right hand closer to you than your left hand.
 - Import the dxf of the GRAM PRI$M V1 in illustrator and replicate the layout prototyped before
     - [Ai files](https://github.com/Avtom/GRAM-PRISM/tree/arcade-V1/Arcade%20%20v1/illustrator)
 - Generate a new dxf out of the illustrator files.
