@@ -1,1 +1,0 @@
-Gerber files (usually used for PCB designs) can we used to create 1.6mm aluminium panels with some nice art on it.
