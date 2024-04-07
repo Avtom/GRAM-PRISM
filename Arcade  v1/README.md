@@ -24,10 +24,15 @@ Here is the different steps taken to create this version of the **PRI$M**:
 - Use cardboard to prototype the layout of the different panels
     - Using a circular cutter made that process way easier
     - It was a good opportunity to check that there is enough room under the panels for all the buttons to fit
+        - ![cardboard test 1](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/cardboard-check-room1.jpg "Card board test 1")
+        - ![cardboard test 2](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/cardboard-check-room2.jpg "Card board test 2")
     - Different version of the layout have been born out of this experiment, with different placement and size of the Aux buttons (start, select, etc) and with and without a focus mode button
     - Tip: the correct way of holding the Prism is with the top middle edge perpandicular to you. Meaning the controller will be tilted with your right hand closer to you than your left hand.
-
-
+    - ![cardboard layout 1](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/cardboard-layout1.jpg "Card layout test 1")
+    - ![cardboard layout 2](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/cardboard-layout2.jpg "Card layout test 2")
+    - ![cardboard layout 3](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/cardboard-layout3.jpg "Card layout test 3")
+    - ![cardboard layout 4](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/cardboard-layout4.jpg "Card layout test 4")
+    - ![cardboard front layout](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/cardboard-front-layout1.jpg "Card front layout")
 - Import the dxf of the GRAM PRI$M V1 in illustrator and replicate the layout prototyped with the cardboard
     - [Ai files](https://github.com/Avtom/GRAM-PRISM/tree/arcade-V1/Arcade%20%20v1/illustrator)
 - Generate a new dxf out of the illustrator files.
@@ -37,6 +42,11 @@ Here is the different steps taken to create this version of the **PRI$M**:
         - [Stl files](https://github.com/Avtom/GRAM-PRISM/tree/arcade-V1/Arcade%20%20v1/stl/stl%202mm%20thick)
 - Checking the layout with a cardboard has it’s limits. It was nice to figure out if how buttons fits in the frame and how to place them under fingers but the lack of rigidity prevented in game testing while playing at full speed. This is where the 3D prints became handy and revealed flaws of the early cardboards layouts (things getting tiring after 30 min of playing tense matches, etc)
     - Lots of iterations were printed to until a good, playable, layout was found.
+      - ![3D print layout 1](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/3D-print-1.jpg "3D print layout 1")
+      - ![3D print layout 2](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/3D-print-2.jpg "3D print layout 2")
+      - ![3D print layout 3](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/3D-print-3.jpg "3D print layout 3")
+      - ![3D print layout 4](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/3D-print-4.jpg "3D print layout 4")
+      - ![3D print layout 5](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/3D-print-5.jpg "3D print layout 5")
 - The art for panels has been designed in Photoshop and the exported in png
     - [Photoshop files](https://github.com/Avtom/GRAM-PRISM/tree/arcade-V1/Arcade%20%20v1/art)
 - Once the layout were locked, then the last step was designing the panels in KiCad (as we are basically manufacturing aluminium pcb to make metal panels).
