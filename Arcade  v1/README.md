@@ -14,6 +14,27 @@ The controller is powered by [RP2040 Advanced Breakout Board](https://github.com
 
 ## How to build the exact same model
 
+### Bill of materials
+- 1 x GRAM PRI$M Frame
+    - [stl  here](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/stl/gram%20prism%20v1%20frame.stl)
+    - [instructions here](https://github.com/Avtom/GRAM-PRISM/tree/arcade-V1?tab=readme-ov-file#the-frame)
+- 1 x set of Arcade PRI$M Aluminum Panels
+    - [look for the .zip files in the exported for JLBPCB folders](https://github.com/Avtom/GRAM-PRISM/tree/arcade-V1/Arcade%20%20v1/kicad)
+    - [instructions here](https://github.com/Avtom/GRAM-PRISM/tree/arcade-V1?tab=readme-ov-file#the-panels)
+        - Please note that the minimum quantity that you can order is 5 for each panel. Maybe try to find other interested person on discord?
+        - Please note that black panels cost significantly more than white one (in case you don’t care about the color)
+- 5 x 30mm buttons and 14 x 24mm low profile arcade buttons.
+    - The challenge is to find buttons that are not too deep because of the limited space inside the Prism, especially on the side.
+        - Punk workshops one are OK, Quanba Gravity KS most likely OK.
+	- Sanwa snap-ins and Crowns 202/204 are NOGO.
+    - Max diameter of the rim is 29mm for the 24mm buttons and 34mm for the 30mm buttons
+- (if you go with snap-in buttons) 1 set of 22-24mm rubber o-rings (likely 2mm thick) and 1 set of 28mm one. 
+    - To compensate for the 1.6mm thickness of the panels which is significantly thinner than normal arcade stick enclosure.
+- ON/OFF button
+- Some padding for the bottom panel (foam or rubber)
+- Wires
+- Advanced break board   
+
 ## How to modify it and make it even better
 
 
@@ -53,6 +74,9 @@ Here is the different steps taken to create this version of the **PRI$M**:
     - Import the dxfs as graphics for the edge.cuts layer
     - Import the art in the bitmap tool of Kicad and then copy/paste it as a silkscreen layer.
     - Plot everything to export the gerber files
+- Ran into problem with the hand screws I had that happened to be be to tall and in the way when holding the controller.
+    - ![Smaller Screws 1](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/smaller-screws-1.jpg "Smaller screws 1")
+    - ![Smaller Screws 2](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/smaller-screws-2.jpg "Smaller screws 2")
 - Order the pcbs (through JLBPCB again)
 - Assemble the beast.
     - With some improvisation on the usb-c passthrough part… initial plan didn’t worked out so some spare plastic part have been glued and the cable tapped to stay in place
