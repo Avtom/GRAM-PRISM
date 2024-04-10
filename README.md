@@ -5,6 +5,8 @@ The **PRI$M** is a modular take on the Prism, originally designed by WunWae. It 
 
 **If you would like to support the developers of this project, consider purchasing parts like buttons, PCBs, USB-C to GCC cables, and official GRAM builds at [GRAMCTRL.COM](https://www.gramctrl.com) rather than a fab house.**
 
+For the Arcade version of the PRI$M, please go to [this section of the documentation](https://github.com/Avtom/GRAM-PRISM/tree/arcade-V1/Arcade%20%20v1)
+
 ![IMG_8768 (1)](https://github.com/GrammyMoney/GRAM-x-PRISM/assets/126632196/b02a1fcf-058c-45d0-9162-b23c6b7bc4d1)
 
 Included Files

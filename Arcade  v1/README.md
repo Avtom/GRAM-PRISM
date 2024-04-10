@@ -8,9 +8,13 @@
 
 ## Introduction
 
+![Arcade](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/arcade-1.jpg "Arcade")
+
 This is an experimental version of the [PRI$M](https://github.com/GrammyMoney/GRAM-PRISM) that fit 24mm and 30mm, relatively low profile, arcade buttons instead of Kaith Choc mini switches.
 The goal is to have very fast buttons (short activation point and short bottom out) while keeping your wrist in a comfortable and straight position.
 The controller is powered by [RP2040 Advanced Breakout Board](https://github.com/OpenStickCommunity/Hardware/tree/main/RP2040%20Advanced%20Breakout%20Board) running the [GP2040-CE firmware](https://github.com/OpenStickCommunity/GP2040-CE).
+
+
 
 ## How to build the exact same model
 
@@ -61,19 +65,36 @@ The controller is powered by [RP2040 Advanced Breakout Board](https://github.com
 6. Get the bottom pannel ready:
     1. Cut a rectangle in the foam/rubber if you want the GP2040-CE logo visible
     2. Stick the pad on the bottom panel and cut what remains on the sides after
-    3. Glue the panel to the frame
-	- ![assembly 5](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly5.jpg "Assembly 5")
+    3. Glue the panel to the frame.
+        - ![assembly 5](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly5.jpg "Assembly 5")
         - ![assembly 6](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly6.jpg "Assembly 6")
         - with the glue in ![assembly 7](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly7.jpg "Assembly 7")
 7. Get the 2 top pannel ready:
     1. Get the bottons in. Don’t forget the o-rings if you are using snaps-in.
-        1. ![assembly 8](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly8.jpg "Assembly 8")
+        - ![assembly 8](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly8.jpg "Assembly 8")
     2. Do the wiring
-        1. ![assembly 9](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly9.jpg "Assembly 9")
+        - ![assembly 9](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly9.jpg "Assembly 9")
 
 
 ## How to modify it and make it even better
 
+- If you want to iterate on the layout of the buttons, you can use the .ai files.
+   - Make sure the buttons are not too close from each others
+   - Keep using mm as a unit everywhere
+   - Use the helpers to see where the inner layer of the frame stops
+   - When done, export to dxf (in illustrator you need to select the shapes who want, then export, then there is a checkbox for exporting only the selected ones)
+   - Need dxf can be imported in kicad (as graphics) if you want metal panels, but I recommand 3D printing them first to validate the layout is playable (I used Autodesk fusion to extrude the shape. 2mm thick is ok)
+
+- if you want to change the art, the .psd files is available. But basically you just need to export 5 png (one for each panel) that you will be able to import in Kicad (the art to bitmap convertor).
+   - For metal panels, only black and white art works.
+   - In photoshop you can make a selection, rotate it, and then copy the content of the selection, that you can open a new file and copy it inside then export.
+   - All the masks and the layout overlay are just helpers, you don’t want to export with them on. (in Photoshop: shift-click to activate or desactivate a mask. Alt + drag and drop to duplicate a mask on a different layer)
+
+## What should be improved first?
+
+- The usb-c passthrough situation is the first thing that needs to be dealt with.
+   - Dirty solution is to move the usb-c somewhere else and instal a typical passthrough that you can find in most arcade shops
+   - The better solution is to take the usb-c breakout pcb from the original [PRI$M](https://github.com/GrammyMoney/GRAM-PRISM) and modify it to be a passthrough instead of one that end with a JST connector.
 
 ## Dev log
 
