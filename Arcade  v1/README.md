@@ -126,6 +126,8 @@ Here is the different steps taken to create this version of the **PRI$M**:
       - ![3D print layout 3](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/3D-print-3.jpg "3D print layout 3")
       - ![3D print layout 4](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/3D-print-4.jpg "3D print layout 4")
       - ![3D print layout 5](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/3D-print-5.jpg "3D print layout 5")
+      - ![prototype layout 1](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/prototype-layout1.jpg "prototype layout 1")
+      - ![prototype layout 2](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/prototype-layout2.jpg "prototype layout 2")
 - The art for panels has been designed in Photoshop and the exported in png
     - [Photoshop files](https://github.com/Avtom/GRAM-PRISM/tree/arcade-V1/Arcade%20%20v1/art)
 - Once the layout were locked, then the last step was designing the panels in KiCad (as we are basically manufacturing aluminium pcb to make metal panels).
