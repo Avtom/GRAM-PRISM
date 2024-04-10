@@ -47,24 +47,24 @@ The controller is powered by [RP2040 Advanced Breakout Board](https://github.com
 ### Assembly
 1. Connect the usb-c cable and harness to the board.
 2. Stick the board inside of the frame on the back panel (the only one that is part of the frame) to avoid having the board touching the metal panels (for static eletricity)
-    1. ![assembly 1](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly1.jpg "Assembly 1")
+    - ![assembly 1](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly1.jpg "Assembly 1")
 3. Get the back panel ready:
     1. Install/solder the cables on the button
     2. Put the button in place
-	1. ![assembly 2](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly2.jpg "Assembly 2")
+	- ![assembly 2](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly2.jpg "Assembly 2")
     3. Connect the cable to the board
 4. Get the usb female in place
-    1. ![assembly 3](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly3.jpg "Assembly 3")
+    - ![assembly 3](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly3.jpg "Assembly 3")
 5. Get the front pannel ready:
     1. Put the button in place and glue the board
-       1. ![assembly 4](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly4.jpg "Assembly 4")
+       - ![assembly 4](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly4.jpg "Assembly 4")
 6. Get the bottom pannel ready:
     1. Cut a rectangle in the foam/rubber if you want the GP2040-CE logo visible
     2. Stick the pad on the bottom panel and cut what remains on the sides after
     3. Glue the panel to the frame
-	1. ![assembly 5](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly5.jpg "Assembly 5")
-        2. ![assembly 6](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly6.jpg "Assembly 6")
-        3. ![assembly 7](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly7.jpg "Assembly 7")
+	- ![assembly 5](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly5.jpg "Assembly 5")
+        - ![assembly 6](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly6.jpg "Assembly 6")
+        - with the glue in ![assembly 7](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly7.jpg "Assembly 7")
 7. Get the 2 top pannel ready:
     1. Get the bottons in. Don’t forget the o-rings if you are using snaps-in.
         1. ![assembly 8](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly8.jpg "Assembly 8")
