@@ -30,10 +30,47 @@ The controller is powered by [RP2040 Advanced Breakout Board](https://github.com
     - Max diameter of the rim is 29mm for the 24mm buttons and 34mm for the 30mm buttons
 - (if you go with snap-in buttons) 1 set of 22-24mm rubber o-rings (likely 2mm thick) and 1 set of 28mm one. 
     - To compensate for the 1.6mm thickness of the panels which is significantly thinner than normal arcade stick enclosure.
-- ON/OFF button
-- Some padding for the bottom panel (foam or rubber)
-- Wires
-- Advanced break board   
+- ON/OFF button of 21mm of diameter ([I used this one](https://focusattack.com/mini-round-2-pin-spdt-on-off-rocker-switch-black/))
+- Some padding for the bottom panel (foam or rubber). [I went with rubber ones to add more weight to the controller](https://www.amazon.ca/dp/B09KC846TX)
+- Wires (typical harness for leverless works well. Depending of the board you will use, you might need extra wires to jst-2pin to connect the ON/OFF and one of the Aux front button. )
+- Advanced break board (I used a 5.2 one from [TheTrain](https://github.com/TheTrainGoes)).
+- (optional) Adhesive PCB feets to keep the board on the inside of the resin panel. [Example](https://focusattack.com/3mm-hole-low-profile-adhesive-pcb-feet-set-of-4/)
+- 8 x low profile M5x0.8 8mm screws.([the ones I used](https://makerparts.ca/products/low-profile-screws-m5?variant=16606601284))
+- Usb-c male (90 angle) to female cable (20cm). [Went with a flat ribbon one](https://www.amazon.ca/Degree-Angled-Ribbon-Standard-Charging/dp/B07C4RD344).
+- (optional) Mx tilters if you want to adjust the angle of some of the fingers. [I used that](https://3dkeycap.com/products/mx-tilters-adapters-10-pack)     
+
+### Tools
+- Solder iron (if you can’t find wires with some connectors on it)
+- Super glue or 3M tape for the panels without screws
+- Some electrical tape to hold the usb-c femal in place. (not super clean, there is way of doing better than that)
+
+### Assembly
+1. Connect the usb-c cable and harness to the board.
+2. Stick the board inside of the frame on the back panel (the only one that is part of the frame) to avoid having the board touching the metal panels (for static eletricity)
+    1. ![assembly 1](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly1.jpg "Assembly 1")
+3. Get the back panel ready:
+    1. Install/solder the cables on the button
+    2. Put the button in place
+	1. ![assembly 2](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly2.jpg "Assembly 2")
+    3. Connect the cable to the board
+4. Get the usb female in place
+    1. ![assembly 3](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly3.jpg "Assembly 3")
+5. Get the front pannel ready:
+    1. Put the button in place and glue the board
+       1. ![assembly 4](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly4.jpg "Assembly 4")
+6. Get the bottom pannel ready:
+    1. Cut a rectangle in the foam/rubber if you want the GP2040-CE logo visible
+    2. Stick the pad on the bottom panel and cut what remains on the sides after
+    3. Glue the panel to the frame
+	1. ![assembly 5](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly5.jpg "Assembly 5")
+        2. ![assembly 6](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly6.jpg "Assembly 6")
+        3. ![assembly 7](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly7.jpg "Assembly 7")
+7. Get the 2 top pannel ready:
+    1. Get the bottons in. Don’t forget the o-rings if you are using snaps-in.
+        1. ![assembly 8](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly8.jpg "Assembly 8")
+    2. Do the wiring
+        1. ![assembly 9](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/Assembly9.jpg "Assembly 9")
+
 
 ## How to modify it and make it even better
 
@@ -78,6 +115,10 @@ Here is the different steps taken to create this version of the **PRI$M**:
     - ![Smaller Screws 1](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/smaller-screws-1.jpg "Smaller screws 1")
     - ![Smaller Screws 2](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/smaller-screws-2.jpg "Smaller screws 2")
 - Order the pcbs (through JLBPCB again)
+   - ![Metals panels](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/explosed.jpg "Metal Panels")
 - Assemble the beast.
     - With some improvisation on the usb-c passthrough part… initial plan didn’t worked out so some spare plastic part have been glued and the cable tapped to stay in place
     - Outside of the top panels that are screwed, all the others are glued with some super glue.
+    - First steps of the assembly:
+        - ![Without Buttons 1](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/without-button-1.jpg "without button 1")
+	- ![Whitout Buttons 2](https://github.com/Avtom/GRAM-PRISM/blob/arcade-V1/Arcade%20%20v1/documentation/without-button-1.jpg "without button 2")
